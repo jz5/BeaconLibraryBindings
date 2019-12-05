@@ -14,7 +14,7 @@
     <AssemblyName>BeaconLibraryBindings</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,9 +46,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <None Include="Jars\android-beacon-library-2.14.aar" />
-    <None Include="Jars\android-beacon-library-2.15.4.aar" />
-    <LibraryProjectZip Include="Jars\android-beacon-library-2.16.1.aar" />
+    <LibraryProjectZip Include="Jars\android-beacon-library-2.16.3.aar" />
     <None Include="Readme.md" />
   </ItemGroup>
   <ItemGroup>
